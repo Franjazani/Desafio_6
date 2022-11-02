@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 6</title>
+</head>
+<body class="container">
+    <h1>AGREGAR PRODUCTO</h1>
+    <form action="api/products" method="post" id="form">
+        <ul>
+            <li>
+                <label for="name" id="inputProd">Producto:</label>
+                <input type="text" id="title" name="title">
+            </li>
+            <li>
+                <label for="name" id="inputPrice">Precio:</label>
+                <input type="number" id="price" name="price">
+            </li>
+            <li class="button">
+                <button type="submit" id="buttonSubmit">Enviar</button>
+            </li>
+        </ul>
+    </form>
+
+    <div>
+        <h2>Productos</h2>
+            <ul>
+                {{#each dataProds}}
+                <li>
+                    {{this.title}} {{this.price}}
+                </li>
+                {{/each}}
+            </ul>
+    </div>
+    
+    <div>
+        <h2>Mensaje al servidor</h2>
+        <form action="">
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Ingrese su email" />
+                <input type="text" id="inputText" placeholder="Ingresa el mensaje">
+            </div>
+            <input type="submit" class="btn" id="inputSubmit" value="Enviar Mensaje">
+        </form>
+    </div>
+</body>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/public.js"></script>
+
+</html>

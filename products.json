@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Cuaderno",
+        "price": 450,
+        "thumbnail": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/131/264/products/cuaderno-exito-tapa-dura-universo-19-x-235-x-48-hojas-rayado1-0945a4091142ef253015856756491602-640-0.jpg",
+        "id": 1
+    },
+    {
+        "title": "Lapices",
+        "price": 2500,
+        "thumbnail": "https://img.freepik.com/foto-gratis/plano-disposicion-lapices-colores_23-2148419458.jpg?w=2000",
+        "id": 2
+    },
+    {
+        "title": "Abrochadora",
+        "price": 1000,
+        "thumbnail": "https://trazos-sanisidro.com.ar/img/p/5/4/2/542-large_default.jpg",
+        "id": 3
+    },
+    {
+        "title": "Goma de Borrar",
+        "price": 150,
+        "thumbnail": "http://d3ugyf2ht6aenh.cloudfront.net/stores/891/147/products/goma-de-borrar-staedtler-526-rasoplast-lapiz-tinta-d_nq_np_772301-mla20303050568_052015-f1-07d89516309b6c8c4615494657096782-640-0.jpg",
+        "id": 4
+    },
+    {
+        "title": "Tijera",
+        "price": 650,
+        "thumbnail": "https://delacabeza.com.ar/wp-content/uploads/2019/01/tijera4.jpg",
+        "id": 5
+    }
+    
+]
